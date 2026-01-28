@@ -29,8 +29,11 @@ This setup provides an efficient development workflow for learning low-level sys
 - [Qemu Build Wiki](https://wiki.qemu.org/Hosts/Linux)
 - [Qemu Build System Architecture](https://www.qemu.org/docs/master/devel/build-system.html#stage-1-configure)
 - [How to Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
-## Almalinux Quickstart
 - [Qemu Gitlab](https://gitlab.com/qemu-project/qemu)
+
+## Container Quickstart
+
+## Almalinux Quickstart
 
 > Since Fedora only offers Qemu's KVM Virtualization software in their RPM
 > Repositories, we'll need to compile Qemu from source to compile against ARM64.
