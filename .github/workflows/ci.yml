@@ -1,0 +1,17 @@
+name: build
+
+run-name: Build TCP Socket
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # container:
+    #   image: arm-container-build:latest
+    steps:
+      - name: Compile 
+        run: echo "Compiling"
