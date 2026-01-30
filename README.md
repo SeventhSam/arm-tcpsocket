@@ -29,6 +29,8 @@ This setup provides an efficient development workflow for learning low-level sys
 - [Qemu Build Wiki](https://wiki.qemu.org/Hosts/Linux)
 - [Qemu Build System Architecture](https://www.qemu.org/docs/master/devel/build-system.html#stage-1-configure)
 - [How to Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+- [Qemu Gitlab](https://gitlab.com/qemu-project/qemu)
+
 ## Almalinux Quickstart
 - [Qemu Gitlab](https://gitlab.com/qemu-project/qemu)
 
@@ -37,11 +39,11 @@ This setup provides an efficient development workflow for learning low-level sys
 
 1. Begin by ensuring your core development tools are up to date. <br>
     ```bash
-    dnf groupinstall "Development Tools" 
+    sudo dnf groupinstall "Development Tools" 
     ```
 2. Install the tools need to build aarch64-qemu
     ```bash 
-        dnf install git glib2-devel libfdt-devel pixman-devel zlib-devel bzip2 ninja-build python3 python3-tomli  
+        sudo dnf install git glib2-devel libfdt-devel pixman-devel zlib-devel bzip2 ninja-build python3 python3-tomli  
     ```
 3. Install the cross compilers 
     ```bash
